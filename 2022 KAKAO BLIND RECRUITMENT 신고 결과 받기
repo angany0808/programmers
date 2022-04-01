@@ -77,7 +77,7 @@ function solution(id_list, report, k) {
     let idLen = id_list.length;
     for(let i = 0; i < idLen; i++){
         answer[i] = 0;
-    }https://programmers.co.kr/learn/courses/30/lessons/92334?language=javascript#
+    }
     
     report1.forEach((x) => {
         toArry.push(x.split(" ")[1]);
